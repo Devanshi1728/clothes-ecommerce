@@ -34,7 +34,6 @@ export const Singup = () => {
           email,
           password
         );
-          console.log('user---',user);
         await createUserDocFromAuth(user, { displayName });
         resetFormFields();
       } catch (error) {
