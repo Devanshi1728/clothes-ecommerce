@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import { Outlet } from "react-router-dom";
-import Directory from "../../Directory/Directory.component";
+import Directory from './../../components/Directory/Directory.component';
 
 const Home = () => {
   const categories = [
